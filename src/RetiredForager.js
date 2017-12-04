@@ -1,9 +1,10 @@
-var RetiredForagerBee = function() {
+var RetiredForagerBee = function(food, eat, treasureChest) {
+
+  ForagerBee.call(this, food, eat, treasureChest);
 	this.age = 40;
 	this.job = 'gamble';
 	this.canFly = false;
 	this.color = 'grey';
-	//this.treasureChest = [];
 };
 
 
